@@ -15,14 +15,10 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.blue[800],
       ),
-      body: Center(
-        child: IconButton(
-          onPressed: () {
-            print('click');
-          },
-          icon: Icon(Icons.alternate_email),
-          color: Colors.amber
-        ),
+      body: Container(
+        padding: EdgeInsets.all(20),
+        color: Colors.grey[400],
+        child: Text('Fuck 2020'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
