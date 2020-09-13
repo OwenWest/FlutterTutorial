@@ -22,7 +22,7 @@ class Home extends StatelessWidget {
               fontSize: 20.0,
               fontWeight: FontWeight.bold,
               letterSpacing: 1.5,
-              color: Colors.grey[600],
+              color: Colors.grey[400],
             )
         ),
       ),
