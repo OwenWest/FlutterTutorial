@@ -16,22 +16,18 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.blue[800],
       ),
       body: Center(
-        child: Text(
-            '2020 blows',
-            style: TextStyle(
-              fontSize: 20.0,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 1.5,
-              color: Colors.grey[400],
-            )
-        ),
+        child: RaisedButton(
+          onPressed: () {
+            print('you clicked me');
+          },
+          child: Text('click me'),
+        )
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        child: Text(
-            "+",
-            style: TextStyle(
-                fontSize: 40.0)
+        child: Icon(
+          Icons.add,
+          size: 40.0,
         ),
         backgroundColor: Colors.blue[800],
       ),
