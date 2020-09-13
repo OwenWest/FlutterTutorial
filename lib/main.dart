@@ -17,6 +17,7 @@ class Home extends StatelessWidget {
       ),
       body: Container(
         padding: EdgeInsets.all(20),
+        margin: EdgeInsets.all(30),
         color: Colors.grey[400],
         child: Text('Fuck 2020'),
       ),
