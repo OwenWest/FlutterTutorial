@@ -1,6 +1,6 @@
 # flutter_app
 
-Tinder for Streaming Movies
+Tutorial
 
 ## Getting Started
 
